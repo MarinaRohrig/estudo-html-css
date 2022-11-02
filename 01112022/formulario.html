@@ -4,11 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Estudo de formulário </title>
+    <link rel=”stylesheet” type=”text/css”href="style.css”>
+
 </head>
 
 <body>
-    <label for="nome_id">Nome:</label>
-    <input type="text" name="nome" id="nme_id" />
+    <label for="nome_id" >Nome:</label>
+    <input type="text" name="nome" id="nome_id" />
+    <hr>
+    <hr>
 
 
     <select id="estados_id " name="estado" multiple="multiple">
@@ -25,6 +29,24 @@
             <option value="BA">Bahia </option>
         </optgroup>
     </select>
+
+    <hr>
+    <hr>
+
+    <FORM action="http://site.com/user/adduser.php" method="post">
+        <P>
+        <LABEL for="firstname">Primeiro nome: </LABEL>
+        <INPUT type="text" id="firstname"><BR>
+        <LABEL for="lastname">Último nome: </LABEL>
+        <INPUT type="text" id="lastname"><BR>
+        <LABEL for="email">Email: </LABEL>
+        <INPUT type="text" id="email"><BR>
+        <INPUT type="radio" name="sex" value="M"> Masculino<BR/>
+        <INPUT type="radio" name="sex" value="F"> Feminino<BR/>
+        <INPUT type="submit" value="Enviar"> <INPUT type="reset">
+        </P>
+        </FORM>
+        
 
 
 </body>
