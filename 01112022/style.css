@@ -1,0 +1,36 @@
+p {
+    color: violet
+}
+
+.violet {
+    color: blueviolet
+}
+
+.alturafonte {
+    font-weight: 900;
+}
+
+.tamanhofonte {
+    font-size: 20px;
+}
+
+.familiafonte {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.minhacor {
+    color: coral
+}
+
+.corfundo {
+    background-color: yellow;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
